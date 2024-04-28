@@ -32,8 +32,8 @@ contents = [
     "This is a message informing you that Bob is suffering a potential medical emergency. Please try to contact him."
 ]
 
-account_sid = 'AC2a026109e8f460f5e69fcabafcae876c'
-auth_token = '2ecf7bb829fca089ef2a337783cc82cd'
+account_sid = 'sid'
+auth_token = 'token'
 client = Client(account_sid, auth_token)
 
 def record_audio():
